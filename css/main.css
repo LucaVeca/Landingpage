@@ -6,8 +6,43 @@
   background-size: cover; 
 }
 
+.set1{
+	margin-left:110px;
+	padding-top: 5px;
+	padding-bottom: 50px
+}
+
+.set2{
+	margin-left: 110px;
+}
+
+.spaces{
+	margin-right: 45px;
+}
+
 .inline{
 	display:
+}
+
+.about{
+	height: 300px;
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 15px;
+	width: 500px;
+	margin-left: 420px;
+	
+}
+
+.aboutme{
+	padding-top: 80px;
+	font-size: 50px;
+}
+
+.projects{
+	padding-top: 10px;
+	font-size: 50px;
+	color: white;
+	font-family: 'Pragati Narrow', sans-serif;
 }
 
 .space{
@@ -18,6 +53,16 @@
 	padding-bottom: 800px;
 	width: 80%;
 	border-color: black;
+}
+
+.line2{
+	border-color: black;
+	width: 30%;
+}
+
+.line3{
+	border-color: white;
+	width: 30%;
 }
 
 .icon1{
@@ -216,18 +261,34 @@ section {
  
 }
 #B {
-
-  height: 600px;
+	background: url(../images/water.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  height: 800px;
 }
 #C {
- 
+ background: url(../images/surf7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 #D {
- 
-  height: 200px;
+ 	background: url(../images/surf7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  height: 800px;
 }
 #E {
-
+	background: url(../images/surf.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 .Scroll-to-top {
   position: fixed;

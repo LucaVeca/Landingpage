@@ -15,8 +15,8 @@
   <a href="#A" class="Quick-navigation-item">1</a>
   <a href="#B" class="Quick-navigation-item">2</a>
   <a href="#C" class="Quick-navigation-item">3</a>
-  <a href="#D" class="Quick-navigation-item">4</a>
-  <a href="#E" class="Quick-navigation-item">5</a>
+  <a href="#E" class="Quick-navigation-item">4</a>
+  
   <div class="Scroll-progress-indicator"></div>
 </nav>
 
@@ -38,34 +38,27 @@
 </section>
 
 <section id="B"  class="js-scroll-step">
-  <div class="icon1">
-		
-		<center class="name">LUCA VECA<center class="type">WEBSITE DESIGNER | FRONT END DEVELOPER</center></center>
-		
-		<hr class="line"w idth="80%">
+  <center class="aboutme">ABOUT ME</center>
+		<hr class="line2"w idth="30%">
+		<center class="about">
+È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile. Molti software di impaginazione e di web design utilizzano Lorem Ipsum come testo modello. Molte versioni del testo sono state prodotte negli anni, a volte casualmente, a volte di proposito (ad esempio inserendo passaggi ironici).</center>
 </section>
 
 <section id="C" class="js-scroll-step">
-  <div class="icon1">
-		
-		<center class="name">LUCA VECA<center class="type">WEBSITE DESIGNER | FRONT END DEVELOPER</center></center>
-		
-		<hr class="line"w idth="80%">
-</section>
-
-<section id="D" class="js-scroll-step">
-  <div class="icon1">
-		
-		<center class="name">LUCA VECA<center class="type">WEBSITE DESIGNER | FRONT END DEVELOPER</center></center>
-		
-		<hr class="line"w idth="80%">
+		<center class="projects">PROJECTS</center>
+		<hr class="line2" color="white" width="30%">
+		<div class="set1">
+		<img class="spaces" src="images/api.png" alt="" height="240" width="540">
+		<img src="images/todo.png" alt="" height="240" width="540">
+		</div>
+		<div class="set2">
+		<img class="spaces" src="images/blog.png" alt="" height="240" width="540">
+		<img src="images/insta.png" alt="" height="240" width="540">
+		</div>
 </section>
 
 <section id="E" class="js-scroll-step">
   
-		<center class="name">LUCA VECA<center class="type">WEBSITE DESIGNER | FRONT END DEVELOPER</center></center>
-		
-		<hr class="line"w idth="80%">
 </section>
 
 <button class="Scroll-to-top">Scroll To Top</button>
