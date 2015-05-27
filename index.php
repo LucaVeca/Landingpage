@@ -34,7 +34,7 @@
 		</div>
 		<center class="name">LUCA VECA<center class="type">WEBSITE DESIGNER | FRONT END DEVELOPER</center></center>
 		
-		<hr class="line"w idth="80%">
+		
 </section>
 
 <section id="B"  class="js-scroll-step">
@@ -48,17 +48,35 @@
 		<center class="projects">PROJECTS</center>
 		<hr class="line2" color="white" width="30%">
 		<div class="set1">
-		<img class="spaces" src="images/api.png" alt="" height="240" width="540">
-		<img src="images/todo.png" alt="" height="240" width="540">
+		<a href="http://localhost/appacademyapi/index.php"><img class="spaces" src="images/api.png" alt="" height="240" width="520"></a>
+		<a href="http://localhost/todo-list2/todo-list.php"><img src="images/todo.png" alt="" height="240" width="520"></a>
 		</div>
 		<div class="set2">
-		<img class="spaces" src="images/blog.png" alt="" height="240" width="540">
-		<img src="images/insta.png" alt="" height="240" width="540">
+		<a href="http://localhost/PHPblog/login.php"><img class="spaces" src="images/blog.png" alt="" height="240" width="520"></a>
+		<a href="https://instagram.com/wolfgang_13"><img src="images/insta.png" alt="" height="240" width="520"></a>
 		</div>
 </section>
 
 <section id="E" class="js-scroll-step">
-  
+  		<center class="projects">CONTACT</center>
+		<hr class="line2" color="white" width="30%">
+  		<div class="contact">
+  			<p>Email: lucaveca@gmail.com
+  			<p>Phone: 917-680-6642
+  			<p>Intagram: @Wolfgang_13
+  			<p>Twitter: @lucaveca
+  			<p>Tumblr: xxlucavecaxx
+  			<?php
+
+  	 $_POST['text'];
+
+  	?>
+  	<form class="shit" method="POST" action=""> 
+  		<input name="text" type="text" />
+  		<input type="submit" name="submit" value="Submit!" />
+  	</form>
+  		</div>
+  		
 </section>
 
 <button class="Scroll-to-top">Scroll To Top</button>
