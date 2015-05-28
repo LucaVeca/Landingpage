@@ -66,18 +66,38 @@
   			<p>Intagram: @Wolfgang_13
   			<p>Twitter: @lucaveca
   			<p>Tumblr: xxlucavecaxx
-  			<?php
+  			
+  		</div>
+  		<!-- Button trigger modal -->
+<button type="button" class="btns" data-toggle="modal" data-target="#myModal">
+  Your Info
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Your Info</h4>
+      </div>
+      <div class="modal-body">
+        <?php
 
   	 $_POST['text'];
 
   	?>
   	<form class="shit" method="POST" action=""> 
-  		<input name="text" type="text" />
+  		<p>Name: <input name="text" type="text" />
+  		<p>Phone: <input name="text" type="text" />
+  		<p>Email: <input name="text" type="text" />
   		<input type="submit" name="submit" value="Submit!" />
   	</form>
-  		</div>
-  		
-</section>
+      </div>
+      
+    </div>
+  </div>
+</div></section>
 
 <button class="Scroll-to-top">Scroll To Top</button>
 		
