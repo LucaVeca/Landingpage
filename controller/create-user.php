@@ -1,21 +1,32 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Pragati+Narrow' rel='stylesheet' type='text/css'>
+	<title></title>
+</head>
+<body>
+	<?php
 	require_once(__DIR__ . "/../model/config.php");
+	require_once(__DIR__."/../connect.php");
 
 	//checks for incorrect characters that the user might input
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
-	$password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
+	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_EMAIL);
+	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING);
+	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_STRING);
+	$other = filter_input(INPUT_POST, "other", FILTER_SANITIZE_STRING);
 
 	//encrypts password
 	$salt = "$5$" . "rounds=5000$" . uniqid(mt_rand(), true) . "$";
 
 	$hashedPassword = crypt($password, $salt);
 
-	$query = $_SESSION["connection"]->query("INSERT INTO users SET "
+	$query = $_SESSION["connection"]->query("INSERT INTO contact SET "
 		. "email = '$email',"
-		. "username = '$username',"
-		. "password = '$hashedPassword',"
-		. "salt = '$salt'");
+		. "name = '$name',"
+		. "phone = '$phone',"
+		. "other = '$other'");
 
 	if($query){
 		echo "Successfully created user: $username";
@@ -23,3 +34,6 @@
 	else{
 		echo "<p>" . $_SESSION["connection"]->error . "</p>";
 	}
+	?>
+</body>
+</html>

@@ -1,4 +1,5 @@
 <?php
+require_once(__DIR__."/../connect.php");
 //helps organize code 
 //moved classes here to help organize code and avoid repeating things
 //classes are used to store variables known as properties, atributes or fields 

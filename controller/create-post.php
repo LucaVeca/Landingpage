@@ -15,7 +15,7 @@
 	
 		//establishes connection to config
 		require_once(__DIR__ . "/../model/config.php");
-		
+		require_once(__DIR__."/../connect.php");
 
 		$connection = new mysqli($host, $username, $password, $database);
 
