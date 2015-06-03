@@ -8,6 +8,7 @@
     	<link href='http://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css"  href="../css/viewpost.css">
+		
 		<title></title>
 	</head>
 	<body id="postpage">

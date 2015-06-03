@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<link type="text/css" rel="stylesheet" href="../css/main.css">
 		<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Pragati+Narrow' rel='stylesheet' type='text/css'>
 	<title></title>
 </head>
-<body>
+<body class="return">
+	<div class="back">
+	<a href="http://localhost/Landingpage/index.php"><center>RETURN</center></a>
+	</div>
 	<?php
 	require_once(__DIR__ . "/../model/config.php");
 	require_once(__DIR__."/../connect.php");

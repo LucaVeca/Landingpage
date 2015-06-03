@@ -28,11 +28,11 @@
 		<div class="text2">PASADENA, CA
 			</div>	
 			<div width="150px">
-			<img class="space" src="images/social122.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/google124.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/social135.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/social136.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/instagram19.png" alt="" style="width:24px;height:24px">
+			<a href="http://localhost/appacademyapi/index.php"><img class="space" src="images/social122.png" alt="" style="width:24px;height:24px"></a>
+			<a href="https://plus.google.com/u/0/108103159754030345023"><img class="space" src="images/google124.png" alt="" style="width:24px;height:24px"></a>
+			<a href="https://www.youtube.com/channel/UCGfWzIeWdmXvW621JryfQ3A"><img class="space" src="images/social135.png" alt="" style="width:24px;height:24px"></a>
+			<a href="http://localhost/appacademyapi/index.php"><img class="space" src="images/social136.png" alt="" style="width:24px;height:24px"></a>
+			<a href="https://instagram.com/wolfgang_13"><img class="space" src="images/instagram19.png" alt="" style="width:24px;height:24px"></a>
 			</div>
 		</div>
 		<center class="name">LUCA VECA<center class="type">WEBSITE DESIGNER | FRONT END DEVELOPER</center></center>
